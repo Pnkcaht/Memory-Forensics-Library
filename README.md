@@ -1,4 +1,4 @@
-# Memory Forensics Library
+# 🕵️‍♂️ Memory Forensics Library
 
 ![Open Source](https://img.shields.io/badge/Open%20Source-Yes-brightgreen)
 ![Language C](https://img.shields.io/badge/Language-C-blue)
