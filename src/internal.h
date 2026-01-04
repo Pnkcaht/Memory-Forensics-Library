@@ -58,4 +58,14 @@ struct mf_os_backend {
     );
 };
 
+/* ============================
+ * Snapshot Diff (internal)
+ * ============================ */
+
+struct mf_diff {
+    size_t modified_regions;
+    size_t modified_bytes;
+};
+
+
 #endif /* MF_INTERNAL_H */

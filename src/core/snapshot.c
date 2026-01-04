@@ -1,4 +1,4 @@
-#include "core/snapshot.h"
+#include "snapshot.h"
 
 #include <stdlib.h>
 #include <stdint.h>

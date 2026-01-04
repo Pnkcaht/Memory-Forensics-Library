@@ -4,7 +4,9 @@
 #include "mf_types.h"
 #include "context.h"
 #include "process.h"
-#include "core/snapshot.h"
+#include "snapshot.h"
+#include "diff.h"
+
 
 int main(void)
 {
