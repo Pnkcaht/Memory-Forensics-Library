@@ -1,7 +1,164 @@
 [
   {
-    "directory": ".",
-    "command": "gcc -Iapi/include -Isrc -c src/core/process.c",
-    "file": "src/core/process.c"
+    "arguments": [
+      "/usr/bin/gcc",
+      "-Wall",
+      "-Wextra",
+      "-Werror",
+      "-g",
+      "-Iapi/include",
+      "-Isrc",
+      "-c",
+      "-o",
+      "src/core/context.o",
+      "src/core/context.c"
+    ],
+    "directory": "/home/pnkcaht/Downloads/Memory-Forensics-Library/Memory-Forensics-Library",
+    "file": "/home/pnkcaht/Downloads/Memory-Forensics-Library/Memory-Forensics-Library/src/core/context.c",
+    "output": "/home/pnkcaht/Downloads/Memory-Forensics-Library/Memory-Forensics-Library/src/core/context.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/gcc",
+      "-Wall",
+      "-Wextra",
+      "-Werror",
+      "-g",
+      "-Iapi/include",
+      "-Isrc",
+      "-c",
+      "-o",
+      "src/core/process.o",
+      "src/core/process.c"
+    ],
+    "directory": "/home/pnkcaht/Downloads/Memory-Forensics-Library/Memory-Forensics-Library",
+    "file": "/home/pnkcaht/Downloads/Memory-Forensics-Library/Memory-Forensics-Library/src/core/process.c",
+    "output": "/home/pnkcaht/Downloads/Memory-Forensics-Library/Memory-Forensics-Library/src/core/process.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/gcc",
+      "-Wall",
+      "-Wextra",
+      "-Werror",
+      "-g",
+      "-Iapi/include",
+      "-Isrc",
+      "-c",
+      "-o",
+      "src/core/snapshot.o",
+      "src/core/snapshot.c"
+    ],
+    "directory": "/home/pnkcaht/Downloads/Memory-Forensics-Library/Memory-Forensics-Library",
+    "file": "/home/pnkcaht/Downloads/Memory-Forensics-Library/Memory-Forensics-Library/src/core/snapshot.c",
+    "output": "/home/pnkcaht/Downloads/Memory-Forensics-Library/Memory-Forensics-Library/src/core/snapshot.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/gcc",
+      "-Wall",
+      "-Wextra",
+      "-Werror",
+      "-g",
+      "-Iapi/include",
+      "-Isrc",
+      "-c",
+      "-o",
+      "src/core/diff.o",
+      "src/core/diff.c"
+    ],
+    "directory": "/home/pnkcaht/Downloads/Memory-Forensics-Library/Memory-Forensics-Library",
+    "file": "/home/pnkcaht/Downloads/Memory-Forensics-Library/Memory-Forensics-Library/src/core/diff.c",
+    "output": "/home/pnkcaht/Downloads/Memory-Forensics-Library/Memory-Forensics-Library/src/core/diff.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/gcc",
+      "-Wall",
+      "-Wextra",
+      "-Werror",
+      "-g",
+      "-Iapi/include",
+      "-Isrc",
+      "-c",
+      "-o",
+      "src/logs/log.o",
+      "src/logs/log.c"
+    ],
+    "directory": "/home/pnkcaht/Downloads/Memory-Forensics-Library/Memory-Forensics-Library",
+    "file": "/home/pnkcaht/Downloads/Memory-Forensics-Library/Memory-Forensics-Library/src/logs/log.c",
+    "output": "/home/pnkcaht/Downloads/Memory-Forensics-Library/Memory-Forensics-Library/src/logs/log.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/gcc",
+      "-Wall",
+      "-Wextra",
+      "-Werror",
+      "-g",
+      "-Iapi/include",
+      "-Isrc",
+      "-c",
+      "-o",
+      "src/utils/list.o",
+      "src/utils/list.c"
+    ],
+    "directory": "/home/pnkcaht/Downloads/Memory-Forensics-Library/Memory-Forensics-Library",
+    "file": "/home/pnkcaht/Downloads/Memory-Forensics-Library/Memory-Forensics-Library/src/utils/list.c",
+    "output": "/home/pnkcaht/Downloads/Memory-Forensics-Library/Memory-Forensics-Library/src/utils/list.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/gcc",
+      "-Wall",
+      "-Wextra",
+      "-Werror",
+      "-g",
+      "-Iapi/include",
+      "-Isrc",
+      "-c",
+      "-o",
+      "src/os/linux/backend.o",
+      "src/os/linux/backend.c"
+    ],
+    "directory": "/home/pnkcaht/Downloads/Memory-Forensics-Library/Memory-Forensics-Library",
+    "file": "/home/pnkcaht/Downloads/Memory-Forensics-Library/Memory-Forensics-Library/src/os/linux/backend.c",
+    "output": "/home/pnkcaht/Downloads/Memory-Forensics-Library/Memory-Forensics-Library/src/os/linux/backend.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/gcc",
+      "-Wall",
+      "-Wextra",
+      "-Werror",
+      "-g",
+      "-Iapi/include",
+      "-Isrc",
+      "-c",
+      "-o",
+      "src/os/linux/process_maps.o",
+      "src/os/linux/process_maps.c"
+    ],
+    "directory": "/home/pnkcaht/Downloads/Memory-Forensics-Library/Memory-Forensics-Library",
+    "file": "/home/pnkcaht/Downloads/Memory-Forensics-Library/Memory-Forensics-Library/src/os/linux/process_maps.c",
+    "output": "/home/pnkcaht/Downloads/Memory-Forensics-Library/Memory-Forensics-Library/src/os/linux/process_maps.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/gcc",
+      "-Wall",
+      "-Wextra",
+      "-Werror",
+      "-g",
+      "-Iapi/include",
+      "-Isrc",
+      "-c",
+      "-o",
+      "src/os/linux/process_memory.o",
+      "src/os/linux/process_memory.c"
+    ],
+    "directory": "/home/pnkcaht/Downloads/Memory-Forensics-Library/Memory-Forensics-Library",
+    "file": "/home/pnkcaht/Downloads/Memory-Forensics-Library/Memory-Forensics-Library/src/os/linux/process_memory.c",
+    "output": "/home/pnkcaht/Downloads/Memory-Forensics-Library/Memory-Forensics-Library/src/os/linux/process_memory.o"
   }
 ]
